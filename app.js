@@ -11,6 +11,7 @@ let original = {
 console.log("original", original);
 
 let copied = { ...original };
+copied.address = { ...original.address };
 
 console.log("copied", copied);
 
